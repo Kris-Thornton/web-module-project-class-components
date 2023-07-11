@@ -1,22 +1,14 @@
 import React from 'react'
 
-export default class Form extends React.Component {
-  constructor() {
-    super();
-    this.state= {
-      input: '',
-      
-    }
-  }
-
-
-
-
-  render() {
+class Form extends React.Component {
+  render(){
     return (
-      <div>
-        <input />
-      </div>
-    )
+    <>
+    <input/>
+    <button>Add</button><br/>
+    
+    </>)
   }
 }
+
+export default Form
